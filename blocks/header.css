@@ -1,11 +1,13 @@
 .header {
+  /* Parameters for the header section */
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
-  /* Parameters for the header section */
+  position: relative;
+  overflow: hidden;
 }
 
 .header__title {
@@ -41,8 +43,6 @@
   z-index: 1;
 }
 
-/* Here we have two examples of selectors to remind you how 
-to configure styles for elements */
 .header__square {
   background-color: #2f80ed;
   height: 568px;
@@ -50,4 +50,5 @@ to configure styles for elements */
   position: absolute;
   right: 0;
   top: 64px;
+  rotate: -15deg;
 }

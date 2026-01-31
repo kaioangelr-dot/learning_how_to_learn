@@ -1,5 +1,5 @@
-.digits {
+.techniques {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
 }

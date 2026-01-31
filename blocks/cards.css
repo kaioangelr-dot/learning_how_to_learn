@@ -1,0 +1,37 @@
+.cards {
+  display: flex;
+  margin: 0 auto;
+  width: 920px;
+  column-gap: 100px;
+  padding-top: 60px;
+  row-gap: 60px;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 240px;
+}
+
+.cards__image {
+  height: 160px;
+  width: 160px;
+  margin: 0 40px 43px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin-bottom: 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+}
